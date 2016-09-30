@@ -1,5 +1,6 @@
 # MacServiceManager
-Python class for Managing, Creating, Stopping, Starting and Restarting Mac services.
+Managing, Creating, Stopping, Starting and Restarting Mac services (Daemons/Agents).
+quick implementation of services all within python. No need to even touch a plist file.
 
 # Usage
 
