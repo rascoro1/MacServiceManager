@@ -3,7 +3,7 @@ Python class for Managing, Creating, Stopping, Starting and Restarting Mac servi
 
 # Usage
 
-```
+```python
 from msm import ServiceManager, Service
 
 # Initilize Service manager
