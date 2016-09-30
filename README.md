@@ -2,7 +2,8 @@
 Python class for Managing, Creating, Stopping, Starting and Restarting Mac services.
 
 # Usage
-`
+
+```
 from msm import ServiceManager, Service
 
 # Initilize Service manager
@@ -40,4 +41,4 @@ else:
 		print (hello_world_service.job_label, "has ended with a status code of", hello_world_service.status)
 	print (hello_world_service.job_label, " is currently not running. Will try to start service")
 	hello_world_service.load()
-`
+```
