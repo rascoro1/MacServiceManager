@@ -30,6 +30,8 @@ service.plist['KeepAlive'] = True
 # This will create the plist file in the correct directory (Really dont know which directory to put t in as of now)
 # I might have to have an attribute if it is a Local or System or Global Service
 sm.add(service)
+# Starting the service 'launchctl start'
+service.start()
 
 # Now ServiceManager will have the new Service located in the plist directory
 hello_world_service = sm.find("com.example.helloworld")  # sm.find will only return 1 Service object as sm.findall will return a list of Service classes
